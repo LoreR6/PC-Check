@@ -555,7 +555,7 @@ function Log-LogitechScripts {
         if (Test-Path $outputFile) {
             Remove-Item -Path $outputFile -Force
         }
-        Write-Host "No Logitech scripts found. Logitech.txt will not be created." -ForegroundColor Yellow
+        Write-Host "No Logitech scripts found" -ForegroundColor Yellow
     } else {
         Write-Host "Logitech scripts logged." -ForegroundColor Green
     }
